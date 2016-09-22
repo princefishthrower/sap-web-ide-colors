@@ -10,7 +10,7 @@ Short Story: I was sad when SAP took the Monokai color scheme from their Web IDE
 For Firefox users, you will need to install the Tampermonkey extension:         
 [https://addons.mozilla.org/de/firefox/addon/tampermonkey/](https://addons.mozilla.org/de/firefox/addon/tampermonkey/)
 
-2. Once you've install Tampermonkey, simply copy the raw code from `sapwebidecolors.js` into a Tampermonkey.
+2. Once you've install Tampermonkey, simply copy the code from `sapwebidecolors.js` into a Tampermonkey.
 
 3. FINALLY, AND MOST IMPORTANT: In the script, make sure to put your "s" username in the url!    
 (I'm not sure if there are other types of user names for the Web IDE, but if there are, put it there. You just want the @match line to be the same as your personal webide URL.)
