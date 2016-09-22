@@ -7,7 +7,6 @@ Short Story: I was sad when SAP took the Monokai color scheme from their Web IDE
 
 1. For Chrome users, you will need to install the Tampermonkey extension:        
 [https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo?hl=en](https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo?hl=en)    
-     
 For Firefox users, you will need to install the Tampermonkey extension:         
 [https://addons.mozilla.org/de/firefox/addon/tampermonkey/](https://addons.mozilla.org/de/firefox/addon/tampermonkey/)
 
