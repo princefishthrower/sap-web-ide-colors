@@ -10,10 +10,9 @@
 // @resource     customCSS https://raw.githubusercontent.com/ajaxorg/ace/master/lib/ace/theme/monokai.css
 // @require      http://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.6.0/highlight.min.js
 // @require      http://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.min.js
-// @require      https://gist.github.com/raw/2625891/waitForKeyElements.js
 // ==/UserScript==
-waitForKeyElements ("#__editor0", applyColor);
-function applyColor() {
+
+window.setTimeout(function() {
     var newCSS = GM_getResourceText ("customCSS"); // monokai css for ace editor
     GM_addStyle (newCSS);
     console.log("added css...");
@@ -23,4 +22,4 @@ function applyColor() {
     $(editor).addClass("ace_editor"); // add back in original class
     $(editor).addClass("ace-monokai"); // monokai colors class!
     console.log("added ace-monokai css...");
-}
+},20000);
