@@ -12,6 +12,9 @@
 // @require      http://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.min.js
 // ==/UserScript==
 
+// *** NOTE: feel free to replace the 'customCSS' link above with any of the following ace themes found here: (make sure to select the raw version!)
+// https://github.com/ajaxorg/ace/tree/master/lib/ace/theme
+
 window.setTimeout(function() {
     var newCSS = GM_getResourceText ("customCSS"); // monokai css for ace editor
     GM_addStyle (newCSS);
